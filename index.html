@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online Article</title>
+  </head>
+  <body>
+
+    <h1>What I've learned so far during this module...</h1>
+    <ul>
+      <li>Paragraph Tag</li>
+        <p>The HTML (p) element represents a paragraph of text. Paragraphs are usually represented in visual media as blocks of text that are separated from adjacent blocks by vertical blank space and/or first-line indentation. Paragraphs are block-level elements.</p>
+
+      <li>Heading Tags</li>
+        <p>The HTML tags for headings are h1, h2, h3, h4, h5 and h6 - with h1 being the almighty emperor of headings (the largest) and h6 being the lowest pleb (the smallest). Note that the h1 tag is only used once, as the main heading of the page. h2 to h6, however, can be used as often as desired, but they should always be used in order, as they were intended. For example, an h4 should be a sub-heading of an h3, which should be a sub-heading of an h2.</p>
+
+      <li>Formatting Text</li>
+        <p>HTML also defines special elements for defining text with a special meaning.HTML uses elements like b and i for formatting output, like bold or italic text.
+          <ul>
+            <li>b - Bold text</li>
+            <li>strong - Important text</li>
+            <li>i - Italic text</li>
+            <li>em - Emphasized text</li>
+            <li>mark - Marked text</li>
+            <li>small - Small text</li>
+            <li>del - Deleted text</li>
+            <li>ins - Inserted text</li>
+            <li>sub - Subscript text</li>
+            <li>sup - Superscript text</li>
+          </ul>
+        </p>
+
+      <li>List Tags</li>
+        <p>Unordered lists and ordered lists work the same way, except that the former are used for non-sequential lists and the latter are for sequential lists.The ul tag is used to define unordered lists, with list items usually preceded by bullets, and the ol tag is used to define ordered lists, normally represented by incremental numbers. Inside the lists, the li tag is used to define each list item.</p>
+
+      <li>Images</li>
+        <p>The img tag is used to put an image in an HTML document. The src attribute tells the browser where to find the image. This file path can be absolute, as the above example demonstrates, but is usually relative. The width and height attributes are necessary because if they are excluded, the browser will tend to calculate the size as the image loads, instead of when the page loads, which means that the layout of the document may jump around while the page is loading.The alt attribute is the alternative description. This is an accessibility consideration, providing meaningful information for users who are unable to see the image (if they are visually impaired, for example).</p>
+
+      <li>Tables</li>
+        <p>There is a number of tags used in tables, and to fully get to grips with how they work is probably the most challenging area of this module. The table element defines the table. The tr element defines a table row. The td element defines a data cell. These must be enclosed in tr tags, as shown below. If you imagine a 3x4 table, which is 12 cells, there should be four tr elements to define the rows and three td elements within each of the rows, making a total of 12 td elements. This creates a grid system with the tr being the rows and the td tags being the columns.</p>
+
+      <li>Forms</li>
+        <p>Forms are used to collect data inputted by a user. They can be used as an interface for a web application, for example, or to send data across the web. form defines the form and within this tag, if you are using a form for a user to submit information (which we are assuming at this level), an action attribute is needed to tell the form where its contents will be sent to.The method attribute tells the form how the data in it is going to be sent and it can have the value get, which is default, and latches the form information onto a web address, or post, which (essentially) invisibly sends the form’s information. Input: The input tag is the daddy of the form world. It can take a multitude of guises, the most common of which are outlined below:
+          <ul>
+            <li>input type="text" or simply input is a standard textbox. This can also have a value attribute, which sets the initial text in the textbox.</li>
+            <li>input type="password" is similar to the textbox, but the characters typed in by the user will be hidden.</li>
+            <li>input type="checkbox" is a checkbox, which can be toggled on and off by the user. This can also have a checked attribute (input type="checkbox" checked - the attribute doesn’t require a value), and makes the initial state of the checkbox to be checked (selected).</li>
+            <li>input type="radio" is similar to a checkbox, but the user can only select one radio button in a group. This can also have a checked attribute.</li>
+            <li>input type="submit" is a button that when selected will submit the form. You can control the text that appears on the submit button with the value attribute, for example input type="submit" value="Ooh. Look. Text on a button. Wow".</li>
+          </ul>
+        </p>
+
+      <li>Links</li>
+        <p>An anchor tag (a) is used to define a link, but you also need to add something to the anchor tag — the destination of the link. The destination of the link is defined in the href attribute of the tag.The link can be absolute, such as “http://codespace.co.za/”, or it can be relative to the current page. If you wanted to add a relative link and if, for example, you had another file called “codespace.html” in the same directory (folder) then the line of code would simply look something like this:a href="codespace.html" This is where I'm learning to code /a</p>
+    </ul>
+
+  </body>
+</html>
